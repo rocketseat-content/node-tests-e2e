@@ -1,0 +1,33 @@
+{
+  "name": "e2enode",
+  "version": "1.0.0",
+  "description": "Unitários = Testam um componente/funcionalidade de forma **isolada**. Integração = Testa como um ou mais componentes/funcionalidades se comportam juntos(as). E2E = Simula o que um usuário vai fazer na nossa aplicação diariamente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:e2e": "jest --config jest-e2e.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.12.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.165",
+    "@swc/jest": "^0.2.20",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.24",
+    "@types/pg": "^8.6.5",
+    "@types/supertest": "^2.0.12",
+    "jest": "^27.5.1",
+    "pg": "^8.7.3",
+    "prisma": "^3.12.0",
+    "supertest": "^6.2.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
